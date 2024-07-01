@@ -1,4 +1,3 @@
-// Aboutme.tsx
 import { SiInformatica } from "react-icons/si";
 import Title from "./Title";
 import { useLanguage } from "../context/LanguageContext"; // Assuming you have a LanguageContext
@@ -8,7 +7,7 @@ const Aboutme = () => {
   const { language } = useLanguage();
 
   // Ensure translations object is correctly imported and accessed
-  const { heading, content } = translations[language as Language]?.aboutme || {};
+  const { heading, content } = translations[language as keyof typeof translations]?.aboutme || {};
 
   return (
     <div className="wrapper">
