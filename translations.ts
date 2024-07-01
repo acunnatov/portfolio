@@ -35,4 +35,4 @@ export const translations = {
   },
 } as const;
 
-export type Language = keyof typeof translations;
+export default translations;
