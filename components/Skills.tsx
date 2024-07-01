@@ -5,11 +5,15 @@ import { useLanguage } from "@/context/LanguageContext";
 
 const Skills = () => {
   const { language } = useLanguage();
-  const translations = {
+  type Translations = {
+    [key: string]: string;
+  };
+  const translations :Translations= {
     en: "Skills",
     uz: "Malakalar",
     ru: "Навыки",
   };
+  
 
   const skillsTitle = translations[language];
 

@@ -1,5 +1,18 @@
-// translations.ts
-export const translations = {
+type Translations = {
+  [key: string]: {
+    aboutme: {
+      heading: string;
+      content: string;
+    };
+    contact: {
+      heading: string;
+      description: string;
+      button: string;
+    };
+  };
+};
+const translations :Translations = {
+  
   en: {
     aboutme: {
       heading: "About Me",
@@ -33,6 +46,6 @@ export const translations = {
       button: "Свяжитесь со мной",
     },
   },
-} as const;
+} 
 
 export default translations;

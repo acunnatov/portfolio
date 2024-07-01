@@ -6,13 +6,15 @@ import WeatherCheck from "../public/img/projects/WeatherCheck.png";
 import BoomShoop from "../public/img/projects/BoomShoop.png";
 import passwordGenerator from "../public/img/projects/passwordGenerator.png";
 import GroceryStore from "../public/img/projects/GroceryStore.png";
-import Image from "next/image";
 import ProjectCard from "./ProjectCard";
 import { useLanguage } from "@/context/LanguageContext";
 
 const Projects = () => {
   const { language } = useLanguage();
-  const translations = {
+  type Translations = {
+    [key: string]: string;
+  };
+  const translations :Translations= {
     en: "Projects",
     uz: "Loyihalar",
     ru: "Проекты",

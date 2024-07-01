@@ -3,6 +3,7 @@ import translations from "../translations";
 import { FaGithub, FaLinkedin, FaTelegram } from 'react-icons/fa'; // Replace with actual icon imports
 
 const Contact = () => {
+  
   const { language } = useLanguage();
   const { heading, description, button } = translations[language]?.contact || {};
 

@@ -1,7 +1,7 @@
 import { SiInformatica } from "react-icons/si";
 import Title from "./Title";
 import { useLanguage } from "../context/LanguageContext"; // Assuming you have a LanguageContext
-import { translations, Language } from "../translations"; // Check the correct path to translations file
+import translations  from "../translations"; // Check the correct path to translations file
 
 const Aboutme = () => {
   const { language } = useLanguage();

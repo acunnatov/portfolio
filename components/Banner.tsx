@@ -4,8 +4,15 @@ import ProfileImg from "../public/img/profileImg.jpg";
 import { useLanguage } from "@/context/LanguageContext"; // Assuming you have a LanguageContext
 
 const Banner = () => {
+  type Translations = {
+    [key: string]: {
+      name: string;
+      title: string;
+      description: string;
+    };
+  };
   const { language } = useLanguage();
-  const translations = {
+  const translations:Translations = {
     en: {
       name: "Abdulbosit Sunnatov",
       title: "Backend Developer",
