@@ -16,36 +16,36 @@ const translations :Translations = {
   en: {
     aboutme: {
       heading: "About Me",
-      content: "This is content in English.",
+      content: "Learn more about who I am and what I do.",
     },
     contact: {
       heading: "Contact",
-      description: "This is contact description in English.",
+      description: "Reach out to me for inquiries or collaborations.",
       button: "Contact Me",
     },
   },
   uz: {
     aboutme: {
       heading: "Men Haqimda",
-      content: "Bu O'zbek tilida mazmun.",
+      content: "Men haqimda ko'proq ma'lumot oling.",
     },
     contact: {
       heading: "Bog'lanish",
-      description: "Bu bog'lanish ma'lumotlari O'zbek tilida.",
+      description: "Savollaringiz yoki hamkorliklar uchun menga murojaat qiling.",
       button: "Menga Murojaat Qiling",
     },
   },
   ru: {
     aboutme: {
       heading: "Обо мне",
-      content: "Это содержание на русском.",
+      content: "Узнайте больше обо мне и моей деятельности.",
     },
     contact: {
       heading: "Контакт",
-      description: "Это контактная информация на русском.",
+      description: "Свяжитесь со мной для вопросов или сотрудничества.",
       button: "Свяжитесь со мной",
     },
-  },
+  },  
 } 
 
 export default translations;
