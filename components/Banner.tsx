@@ -23,7 +23,7 @@ const Banner = () => {
       name: "Abdulbosit Sunnatov",
       title: "Backend Dasturchi",
       description:
-        "Men mustahkam va kengaytiriladigan dasturlar yaratishga bag'ishlangan backend dasturchiman. 1 yildan ortiq tajribaga ega bo'lib, Node.js da juda yaxshi ishlayman va ko'nikmalarimni yaxshilash uchun yangi muammolarni hal qilishdan zavqlanaman.",
+        "Men backend dasturchisi, mustahkam va taraqqiyotli dasturlar yaratishga qiziqaman. Node.js da 1 yildan ortiq tajribaga ega bo'lib, bilimlarimni oshirish uchun yangi muammolar bilan shug'ullanishni yaxshi ko'raman.",
     },
     ru: {
       name: "Абдулбосит Суннатов",

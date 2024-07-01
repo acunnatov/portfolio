@@ -32,11 +32,11 @@ const Aboutme = () => {
     uz: {
       aboutme: {
         heading: "Men haqimda",
-        content: "Men Node.js da 1+ yillik tajriba bilan web dasturchiman. Backend dasturlarini yaratish va ularga qo'llab-quvvatlashda kuchliyman. REST API lar yaratish, ularga qo'llab-quvvatlash va moslashish prinsiplarini amalga oshirishda tajribaga egaman. Webpack, npm va Git kabi vositalardan foydalanishni bilaman. Texnikaviy bilimlarimni rivojlantirishni, yangi texnologiyalarni o'rganishni va yangi muammolarni qabul qilishni yaxshi ko'raman.\n\nMen jamoat bilan yaxshi aloqada bo'lishni va komanda ishxonch bo'lishni xohlayman. Men xilma-xil ta'lim va ish bo'yicha yangiliklarga ochiqman.",
+        content: "Men Node.js da 1+ yillik tajriba bilan web dasturchiman. Backend dasturlarini yaratish va ularni qo'llab-quvvatlash,yangilashni bilaman. REST API lar yaratish va moslashish prinsiplarini amalga oshirishda tajribaga egaman. Webpack, npm va Git kabi vositalardan foydalanishni bilaman. Texnikaviy bilimlarimni rivojlantirishni, yangi texnologiyalarni o'rganishni va yangi muammolarni qabul qilishga tayyorman.\n\nMen jamoat bilan yaxshi aloqada bo'lishni va komanda ishonchida bo'lishni xohlayman. Men turli xil ta'lim va ish bo'yicha yangiliklarga ochiqman.",
       },
       contact: {
         heading: "Menga murojaat qiling",
-        description: "Ishonch bilan, men bilan bog'laning va barcha so'rovnoma va imkoniyatlaringiz uchun.",
+        description: "Savol yoki taklif bo'yicha bog'laning.",
         button: "Xabar yuboring",
       },
     },
